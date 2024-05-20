@@ -1,0 +1,51 @@
+/* About Us Section */
+.about-us-section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .about-us-section h2 {
+    color: #4CAF50;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .about-us-section p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .about-us-section .team-members {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .team-member {
+    margin: 0 20px;
+  }
+  
+  .team-member img {
+    width: 200px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .team-member img:hover {
+    transform: scale(1.1);
+  }
+  
+  .team-member h3 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .team-member p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  /* Add more styles as needed */
+  

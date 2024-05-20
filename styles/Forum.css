@@ -1,0 +1,84 @@
+/* Forum section styles */
+
+.forum-section {
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 30px 0; /* Add some padding */
+}
+.forum-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  box-shadow: 1px 4px 6px#333;
+  border-radius: 7px;
+}
+
+/* Forum post styles */
+.forum-post {
+  background-color: #fff; /* White background for each forum post */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.forum-post h3 {
+  color: #4CAF50; /* Eco green color */
+  margin-bottom: 10px;
+}
+
+.forum-post p {
+  color: #555; /* Dark gray text color */
+  line-height: 1.6;
+}
+
+.forum-post .author {
+  color: #777; /* Light gray text color for author information */
+  margin-top: 10px;
+}
+
+/* Forum post form styles */
+.forum-post-form {
+  background-color: #fff; /* White background for the form */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.forum-post-form label {
+  color: #333; /* Dark gray text color */
+  font-weight: bold;
+}
+
+.forum-post-form input[type="text"],
+.forum-post-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px;
+}
+
+.forum-post-form input[type="submit"] {
+  background-color: #4CAF50; /* Eco green color for submit button */
+  color: #fff; /* White text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.forum-post-form input[type="submit"]:hover {
+  background-color: #45a049; /* Darker shade of green on hover */
+}
+
+img{
+  border-radius: 50%;
+  width:45px;
+  height: 45px;
+}

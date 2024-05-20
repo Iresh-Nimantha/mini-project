@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" href="./styles/Register.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Registration</h2>
+    <div class="form-container">
+      <form action="register.php" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+        <label for="nic">NIC Number:</label>
+        <input type="text" id="nic" name="nic" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+    <p>Already a user? <a href="login.html">Login here</a>.</p>
+  </div>
+</body>
+</html>

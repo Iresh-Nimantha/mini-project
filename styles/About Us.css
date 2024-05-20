@@ -1,0 +1,84 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2; /* Light gray background */
+  color: #333; /* Dark gray text color */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: fle;
+}
+
+/* Header styles */
+.header {
+  background-color: #4CAF50; /* Eco green color */
+  padding: 20px 0;
+}
+
+.header-title {
+  color: #fff; /* White text color */
+  text-align: center;
+}
+
+/* Team section styles */
+.team-section {
+  margin-top: 40px;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.developer {
+  background-color: #fff; /* White background for developer section */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+
+
+.developer h3 {
+  color: #4CAF50; /* Eco green color for developer names */
+}
+
+.developer p {
+  margin-bottom: 10px;
+  
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media a {
+  margin-right: 10px;
+  
+}
+
+/* Footer styles */
+.footer-section {
+  background-color: #4CAF50; /* Eco green color */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-section p {
+  color: #fff; /* White text color */
+  margin: 0;
+}
+
+.developer a img {
+  width: 45px; /* Set the width of the images to 45px */
+  height: auto; /* Maintain aspect ratio */
+}
+

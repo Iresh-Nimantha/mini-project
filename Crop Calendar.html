@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crop Calendar</title>
+  <link rel="stylesheet" href="./styles/Crop Calendar.css">
+</head>
+<body>
+  <section class="crop-calendar-section">
+    <div class="container">
+      <h2>Crop Calendar</h2>
+      <form class="crop-search-form">
+        <label for="cropSearch">Search for a Crop:</label>
+        <input type="text" id="cropSearch" name="cropSearch" placeholder="Enter a fruit or vegetable">
+        <select id="cropDropdown" onchange="updateSearchBox()">
+          <!-- Crop options will be dynamically generated here -->
+        </select>
+      </form>
+      <div class="additional-crops">
+        <h3>Crop Options</h3>
+        <ul id="additionalCropList">
+          <!-- Additional crop options will be dynamically generated here -->
+        </ul>
+      </div>
+    </div>
+    <button type="submit">Search</button>
+  </section>
+
+  <table border="">
+    <thead>
+        <tr>
+            <th rowspan="2">Variety</th>
+            <th rowspan="2">Duration (Months)</th>
+            <th rowspan="2">Spacing</th>
+            <th colspan="2">Seed Rate</th>
+            <th rowspan="2">Fertilizer</th>
+            <th rowspan="2">Yield</th>
+            <th rowspan="2">Others</th>
+        </tr>
+        <tr>
+            <th>Before Soaking (g)</th>
+            <th>After Soaking (g)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Rice</td>
+            <td>4</td>
+            <td>20x20 cm</td>
+            <td>10</td>
+            <td>8</td>
+            <td>Organic</td>
+            <td>100 kg</td>
+            <td>None</td>
+        </tr>
+    </tbody>
+  </table>
+
+  
+
+  <script>
+    // Set session storage flag when visiting the crop calendar page
+    sessionStorage.setItem('visitedCropCalendar', 'true');
+  </script>
+
+  <script src="./styles/Crop Calendar.js"></script>
+  <script src="./styles/popup.js"></script>
+</body>
+</html>

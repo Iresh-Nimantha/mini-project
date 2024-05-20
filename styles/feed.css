@@ -1,0 +1,40 @@
+.feedback-boxes {
+    display: block;
+    justify-content: space-between;
+    display: box;
+  }
+  
+  .feedback-box {
+    
+  background-color: #fff; /* White background for developer section */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  
+  
+  }
+  
+  .feedback-box h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .feedback-box p {
+    color: #555;
+  }
+
+  .ffeed{
+    display: flex;
+  }
+
+  .feed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }

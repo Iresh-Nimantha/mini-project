@@ -1,0 +1,295 @@
+
+/* Header Section Styles */
+.header {
+    background-color: #4CAF50; /* Eco green color */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999; /* Ensure it's above other content */
+    cursor: pointer; /* Add pointer cursor on hover */
+    transition: transform 0.3s ease; /* Add a smooth transition */
+    
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+  }
+  
+  .nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-menu li {
+    margin-right: 20px;
+  }
+  
+  .nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease; /* Add smooth color transition on hover */
+  }
+  
+  .nav-menu a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+
+  /* Hero Section Styles */
+.hero-section {
+    background-image: url('../images/hero-background1.jpg'); /* Replace 'hero-background.jpg' with your actual image path */
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 100px 0;
+    margin-top: 10px;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #4CAF50; /* Eco green color */
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  .cta-button:hover {
+    background-color: #45A049; /* Darker shade of green on hover */
+  }
+
+  .shadow {
+    display: flex; /* Use flexbox for layout */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+
+.shadow {
+    padding: 10px;
+    margin: 10px;
+    background-color: lightblue; 
+    border-radius: 5px; 
+}
+
+/* Features Section Styles */
+.features-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+  }
+  
+  .feature {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .feature img {
+    width: 100px; /* Adjust icon size as needed */
+  }
+  
+  .feature h3 {
+    margin-top: 20px;
+    color: #4CAF50; /* Eco green color */
+  }
+  
+  .feature p {
+    margin-top: 10px;
+  }
+
+  
+  
+
+  /* Crop Calendar Section Styles */
+.crop-calendar-section {
+    background-color: #F0F8FF; /* Light blue color */
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .crop-calendar-section h2 {
+    color: #4CAF50; /* Eco green color */
+  }
+  
+  .crop-calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .crop-data {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .interactive-elements {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .crop-data,
+  .interactive-elements {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+
+  
+/* Footer Section Styles */
+.footer-section {
+    background-color: #4CAF50; /* Eco green color */
+    color: white;
+    padding: 50px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-info,
+  .social-media {
+    flex: 1;
+  }
+  
+  .contact-info h3,
+  .social-media h3 {
+    margin-bottom: 20px;
+  }
+  
+  .social-media ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-media ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .social-media ul li a img {
+    width: 40px; /* Adjust icon size as needed */
+    height: 40px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+    border-style: solid;
+    border-radius: 13px;
+    color: green;
+  }
+  
+  .copyright-info {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  #WhatsApp img{
+    width: 60px;
+    height: 60px;
+  }
+  
+  
+  
+  /* Additional Tips Section Styles */
+.additional-tips-section {
+    background-color: #F0F8FF; /* Light blue color */
+    color: #4CAF50; /* Eco green color */
+    padding: 50px 0;
+  }
+  
+  .tips-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .tips-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .tips-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .tips-content li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .tips-content li:before {
+    content: "\2022"; /* Bullet point character */
+    color: #4CAF50; /* Eco green color */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+    left: 0;
+  }
+  
+  /*bot boublr*/
+  .bobble-wrapper {
+    background-image: url('../images/hero-background1.jpg');
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999; /* Ensure it's above other content */
+    background-color:#4CAF50;
+    border: 1px solid #4CAF50;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px;
+  }
+
+
+
+  
